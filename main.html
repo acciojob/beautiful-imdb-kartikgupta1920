@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful IMDb</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .moviePic {
+      height: 300px;
+      width: 200px;
+      opacity: 0.9;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      margin-bottom: 20px;
+    }
+
+    .movieDetail {
+      position: relative;
+      top: 0;
+      width: 60%;
+      text-align: center;
+      font-size: 18px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <img class="moviePic" src="https://via.placeholder.com/200x300" alt="Movie Poster">
+  <p class="movieDetail">
+    This is the description of the movie. The movie is an epic tale of adventure, drama, and mystery. It features stunning visuals, a gripping storyline, and memorable performances that captivate audiences worldwide.
+  </p>
 </body>
-
 </html>
